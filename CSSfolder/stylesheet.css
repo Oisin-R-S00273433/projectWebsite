@@ -160,7 +160,7 @@ footer {
 #maps
 {
     float: center;
-    width:auto;
+    width:max-content;
     border: 2px grey;
 }
 
