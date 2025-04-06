@@ -1,0 +1,178 @@
+h1, h2, h3
+{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+  /*  text-shadow: -2px -2px 4px red; */
+    font-size: 200%;
+}
+
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+
+
+header 
+{
+    background-image: url(../Images/WideCollagecropped.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 350px;
+    
+    
+}
+
+body
+{
+    background-color: #f3a11e;
+    margin-left: 10%;
+    margin-right:10% ;
+}
+
+#content
+ {
+    float:left;
+    width: 80%;
+    border: 1px solid rgb(255, 255, 255);
+ }
+
+ #Audiocontent
+ {
+    float:left;
+    width: 105%;
+    border: 1px solid rgb(255, 255, 255);
+ }
+
+ #videoContent
+ {
+    float:left;
+    width: 80%;
+    border: 1px solid rgb(255, 255, 255);
+ }
+
+ aside
+ {
+    float: right;
+    width: 15%;
+    height: 80%;
+    border: 1px solid rgb(44, 25, 153);
+    text-align: left;
+    text-decoration: underline;
+    text-size-adjust: 20px;
+ }
+ .showimages 
+ {
+    float:center;
+    size-adjust: 20%;
+ }
+
+ style.css
+ {
+    border: 5px solid yellow;
+    width: 18.5%;
+    float: right;
+ }
+
+#mainText
+{
+    color:black;
+    font-family: arial;
+    text-align: justify;
+}
+
+.fullWidthContent
+{
+    width:100%;
+}
+
+a
+{
+    font-size: 2em;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;   
+    align-items: center;
+}
+
+.anchorLarge {
+    color: rgb(150, 0, 200);
+    font-size: 2em;
+    padding: 5%;
+    align-items: center;
+}
+
+img{
+    width:100%
+}
+
+nav ul li {display:inline;}
+
+nav ul a
+{ 
+    font-size: 200%;
+    text-decoration: none;
+    border: 2px solid orangered;
+    border-radius: 1em;
+    margin-right: 10px;
+    padding: 10px;
+    color: black;
+    background-color: lightskyblue;
+}
+
+footer {
+
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 105%;
+    background-color: grey;
+
+    text-align: center;
+}
+
+
+.videoContent
+{
+    float: right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+.backgroundImageB 
+{
+    background-image: url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundImageC 
+{
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundImageD
+{
+    background-image: url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+

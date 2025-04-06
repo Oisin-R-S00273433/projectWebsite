@@ -1,0 +1,9 @@
+add xenocider sprite GIF
+add gameboy design spec
+add flowcharts and diagrams
+
+lots of these are stored on laptop 
+
+use a carousel to show off different assets
+use internal links to show off some works 
+use gifs and spritesheets
