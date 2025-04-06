@@ -66,6 +66,7 @@ body
     text-align: left;
     text-decoration: underline;
     text-size-adjust: 20px;
+    
  }
  .showimages 
  {
@@ -160,9 +161,11 @@ footer {
 #maps
 {
     float: center;
-    width:max-content;
+    text-align: center;
     border: 2px grey;
+    image-resolution: 50%;
 }
+
 
 
 
