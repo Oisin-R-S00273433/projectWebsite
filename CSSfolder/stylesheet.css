@@ -157,6 +157,13 @@ footer {
     color: red;
 }
 
+#maps
+{
+    float: center;
+    width:auto;
+    border: 2px grey;
+}
+
 
 
 
