@@ -65,7 +65,8 @@ body
     border: 1px solid rgb(44, 25, 153);
     text-align: left;
     text-decoration: underline;
-    text-size-adjust: 20px;
+    
+    font-size: medium;
     
  }
  .showimages 
