@@ -94,7 +94,7 @@ body
 
 a
 {
-    font-size: 2em;
+    font-size: 1em;
     color: whitesmoke;
     text-align: center;
     text-decoration: none;   
@@ -103,7 +103,7 @@ a
 
 .anchorLarge {
     color: rgb(150, 0, 200);
-    font-size: 2em;
+    font-size: 1em;
     padding: 5%;
     align-items: center;
 }
@@ -116,7 +116,7 @@ nav ul li {display:inline;}
 
 nav ul a
 { 
-    font-size: 200%;
+    font-size: 150%;
     text-decoration: none;
     border: 2px solid orangered;
     border-radius: 1em;
