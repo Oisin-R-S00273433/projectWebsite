@@ -151,25 +151,10 @@ footer {
     overflow: auto;
 }
 
-.backgroundImageB 
+.required
 {
-    background-image: url(../Images/bacon.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.backgroundImageC 
-{
-    background-image: url(../Images/carrots.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.backgroundImageD
-{
-    background-image: url(../Images/eggs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-weight: bold;
+    color: red;
 }
 
 
