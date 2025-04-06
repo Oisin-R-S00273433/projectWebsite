@@ -15,10 +15,43 @@
         <title>  OR Artwork 2025 - This is a college work website :]</title>
         <link rel="stylesheet" href="CSSfolder/stylesheet.css">
         <link rel="icon" href="Images/FaviconGuy.jpg" type="image/gif" sizes="16x16">
+        
         <style>
 
-        </style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 200px;
+            margin:"";
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    
 </head>
+
 
 
 
@@ -43,49 +76,21 @@
          </nav>
 
 
-    <main id="content">
+         <h1>Contact Us (form action:"http:/foo.com" method="get") </h1>
+         <form action="http:/foo.com" method="put">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+     
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+     
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" cols="40" rows="4" required></textarea>
+     
+             <button type="submit">Submit</button>
+         </form>
 
-        <section id="Introduction">
-            <h2> Introduction </h2>
-            <img src="Images/CPU architecture.png" height="500" width="" id="bigPic" />
-            <p>
-                Throughtout the school year I have been making lots of artwork to demonstrate concepts in my different subjects, such as the above CPU diagram, Project Flowcharts, Sprites for Game Development, etc. Here is a collection of the assets I've made for different projects.
-            </p>
-
-    
-
-        <h2> Game Sprites </h2>
-
-            <h3> HealthGuy - Character Sprite </h3>
-            <section class="col_detail">
-                <img src="Images/healthguy 500px face.png" alt="Health Bar" />
-                <p>
-                    This sprite is the main character in my final game project. We use this character sprite to display health animations.
-                </p>
-
-            </section>
-
-            <h3> Tank!  - Enemy boss sprite </h3>
-            <section class="col_detail">
-
-                <img src="Images/tankBig-1.png.png" alt="Tank" />
-                <p>
-                    This sprite was very fun to make. It is a boss enemy in the form of a tank. I decided it would be fun to give it Race Car design language, with racing stripes and a spoiler. I used simple color shading to lend depth to the design. 
-                </p>
-
-            </section>
-
-        </section>
-
-        <h3> Diagrams and designs - Internet of Things Reaction Tester</h3>
-        <section class="col_detail">
-
-            <img src="Images/IoT Project 1 reaction measure design.png" alt="tester" />
-            <p>
-                This diagram shows off the proposed design for our Internet of Things Reaction tester device. It follows the design concepts of a Nintendo Gameboy.
-            </p>
-
-        </section>
+         <p style="margin-left:138px"> <span class="required">*</span> <em> indicates a required field </em></p>
 
 
 </main>
@@ -96,7 +101,7 @@
           <li>  <a href="index.html"> Home </a>  </li> <br> <br>
            <li> <a href="page2video.html"> Videos </a> </li> <br> <br>
            <li>  <a href="page3audio.html"> Character art and audios </a> </li> <br> <br>
-           <li> <a href="index.html">Go to Top</a> </li> <br> <!--  add this to each page -->
+           <li> <a href="#Top">Go to Top</a> </li> <br> <!--  add this to each page -->
            
             </ul>
 
@@ -116,7 +121,7 @@
         <nav>
             <ul>
                 <li> <a href="index.html"> Home </a> </li>
-                <li> <a href="index.html"> Top </a> </li>
+                <li> <a href="#Top"> Top </a> </li>
                 <li> <a href="page2video.html"> Videos </a> </li>
                 <li> <a href="page3audio.html"> Character Artworks and Audios </a> </li>
             </ul>
